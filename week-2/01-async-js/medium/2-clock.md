@@ -22,10 +22,6 @@ const time = () => {
   return {hours, minutes, seconds};
 };
 
-
-    console.clear();
-
-
 setInterval(() => {
   const {hours, minutes, seconds} = time(); //destructing the retunred object.
   console.clear();

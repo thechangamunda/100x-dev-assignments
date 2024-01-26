@@ -6,6 +6,7 @@ It should go up as time goes by in intervals of 1 second
 Solution:
 
 let count = 0;
+
 setInterval(function () {
   console.log(count);
   count++;

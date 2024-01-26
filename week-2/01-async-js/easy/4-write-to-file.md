@@ -11,6 +11,7 @@ const fs = require("fs");
 const content = " boombaclatttttt!!";
 
 //Overwrites the file
+
 fs.writeFile("a.txt", content, (err) => {
   if(err){ 
     console.log(err);
@@ -18,6 +19,7 @@ fs.writeFile("a.txt", content, (err) => {
 });
 
 //Appends(adds) to the existing file.
+
 fs.appendFile("a.txt", content, (err) => {
   if(err){ 
     console.log(err);
